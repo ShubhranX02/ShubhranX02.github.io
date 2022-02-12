@@ -27,3 +27,8 @@
     border: solid goldenrod 3px;
     color: black;
 }
+@media screen and (max-width: 800px) {
+    #Button1 {
+      width: 100%;
+    }
+  }
