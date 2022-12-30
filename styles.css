@@ -1,0 +1,90 @@
+#button {
+    background-color: rgb(1, 1, 178);
+    color: goldenrod;
+    height: 75px;
+    width: 225px;
+    border: 2px solid goldenrod;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px lightgray;
+    font-size: 30px;
+    transition: 0.5s;
+    position: relative;
+    left: 600px;
+    top: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#button:hover {
+    background-color: rgb(5, 5, 135);
+    box-shadow: 0px 0px 20px 8px lightgray;
+    transition: 0.25s;
+}
+
+
+#timer {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    font-size: 18px;
+}
+
+#score {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 8px;
+    right: 32px;
+    font-size: 18px;
+}
+
+#details {
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+#game {
+    display: none;
+}
+
+#endgame {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+#play {
+    background-color: rgb(1, 1, 178);
+    color: goldenrod;
+    height: 75px;
+    width: 225px;
+    border: 2px solid goldenrod;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px lightgray;
+    font-size: 30px;
+    transition: 1s;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+}
+
+#play:hover {
+    background-color: rgb(5, 5, 135);
+    box-shadow: 0px 0px 20px 8px lightgray;
+    transition: 1s;
+}
+
+#title {
+    font-size: 75px;
+    margin: 20px;
+}
