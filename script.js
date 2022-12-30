@@ -52,6 +52,12 @@ function loadMainMenu()
     let highscore = getHighScore();
 
     highScoreDisplay.innerHTML = `High Score: ${highscore}`;
+
+    if (window.innerHeight > window.innerWidth)
+    {
+        document.querySelector("#cannot-play").innerHTML = "Can Play only on a Computer :(";
+        document.querySelector("#play").disabled = true;
+    }
 }
 
 function loadGame()
