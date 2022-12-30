@@ -57,6 +57,9 @@ function loadMainMenu()
     {
         document.querySelector("#cannot-play").innerHTML = "Can Play only on a Computer :(";
         document.querySelector("#play").disabled = true;
+        document.querySelector("#play").style.backgroundColor = "lightgrey";
+        document.querySelector("#play").style.color = "black";
+        document.querySelector("#play").style.border = "2px solid black";
     }
 }
 
