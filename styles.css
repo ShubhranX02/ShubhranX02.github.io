@@ -64,7 +64,7 @@
     font-size: 50px;
 }
 
-#play {
+.play {
     background-color: rgb(1, 1, 178);
     color: goldenrod;
     height: 75px;
@@ -78,7 +78,7 @@
     margin: 20px;
 }
 
-#play:hover {
+.play:hover {
     background-color: rgb(5, 5, 135);
     box-shadow: 0px 0px 20px 8px lightgray;
     transition: 1s;

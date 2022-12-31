@@ -133,8 +133,7 @@ function loadEndgame(score)
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    document.querySelector("#play").onclick = () => loadGame();
-    document.querySelector("#play-again").onclick = () => loadGame();
+    document.querySelectorAll(".play").forEach(button => button.onclick = () => loadGame());
 
     loadMainMenu();
 
